@@ -3,47 +3,99 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale1.0">
-    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./style/global.css">
+
+    <!--fonte roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!--link css carrousel-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
     <title> BLOG PAGE </title>
   </head>
   <body>
     <header>
-    <div class="cabecalho">
-      <img src="./img/title1.png" alt="title"> 
+    <div class="container">
+      <img class="logo" src="./img/title1.png" alt="title" height="45" width="150"> 
     </div>
     </header>
-    
-    <div class=container>
-      <div class="carousel">
-        <img src="./img/img1.png" alt="carrossel">
-        
-      </div>
-      <div class="texto-blog">
-        <p class="texto">
-          Entre o nascer e o crescer sempre quis entender o que me faz bem é o mesmo que me faz 
-          morrer... na verdade isso sempre foi comum nas estatisticas um preto é só mais um que nem 
-          uma rosa na escuridao com o tempo, elas vem com o tempo elas se vão vivendo que nem onça 
-          sem medo de morrer alias se tamo aqui é pra sobreviver se ta entendendo esse qui é o saber 
-          ai vem neguinho dizendo que saber é poder... um homem negro banhado de onça pintada Um homem branco pintado de ideia quadrada
-        </p>
+    <main>
+      <div class="principal">
+        <div class="container">
+          <p class="descricao">Entre o nascer e o crescer sempre quis entender o que me faz bem é o mesmo que me faz 
+            morrer... na verdade isso sempre foi comum nas estatisticas um preto é só mais um que nem 
+            uma rosa na escuridao com o tempo, elas vem com o tempo elas se vão vivendo que nem onça 
+            sem medo de morrer alias se tamo aqui é pra sobreviver se ta entendendo esse qui é o saber 
+            ai vem neguinho dizendo que saber é poder... um homem negro banhado de onça pintada Um homem branco pintado de ideia quadrada</p>
+        </div>
+     
+
+    <!--carrossel-->
+      <div class="carousel-artes">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img class="box-arte" src="./img/img1.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img2.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img3.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img4.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img5.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img6.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img7.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img8.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img9.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img10.png" alt="carrossel" srcset="">
+            </div>
+            <div class="item">
+              <img class="box-arte" src="./img/img11.png" alt="carrossel" srcset="">
+            </div>
+          </div>
       </div>
     </div>
+  </main>
+      
     <footer>
-      <ul>
-        <li> 
-        <a href="https://www.instagram.com/splash_es/" target="_blank"> Instagram </a>
+      <ul >
+        <li class="icones"> 
+        <a href="https://www.instagram.com/splash_es/" target="_blank"> <i class="fab fa-instagram"></i></a></li>
+        <li class="icones"> 
+        <a href="https://www.instagram.com/splash_es/" target="_blank"> <i class="fab fa-behance"></i></a></li>
+        <li class="icones"> 
+        <a href="https://www.instagram.com/splash_es/" target="_blank"> <i class="fab fa-linkedin-in"></i></a>
         </li>
-        <li> 
-        <a href="https://www.instagram.com/splash_es/" target="_blank"> Behance </a>
-        </li>
-        <li> 
-        <a href="https://www.instagram.com/splash_es/" target="_blank"> Linkedin </a>
-        </li>
-        <li> 
-        <a href="https://www.instagram.com/splash_es/" target="_blank"> GitHub </a>
-        </li>
+        <li class="icones"> 
+        <a href="https://www.instagram.com/splash_es/" target="_blank"> <i class="fab fa-github"></i></a></li>
       </ul>
     </footer>
 
+
+
+    
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/a5467aff91.js" crossorigin="anonymous"></script>
+   <!--Link carousel-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
   </body>
 </html>
